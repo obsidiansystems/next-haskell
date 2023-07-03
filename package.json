@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Obsidian Systems LLC",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "haskell-loader": "git+ssh://git@code.obsidian.systems/ryantrinkle/haskell-loader",
+  },
 }

@@ -7,16 +7,14 @@ module.exports = (nextConfig = {}) => {
         );
       }
 
-      const { dir, defaultLoaders, dev, isServer } = options;
+      const { dir, dev, isServer } = options;
 
       config.module.rules.push({
         test: /\.(cabal)$/,
-        include: [dir],
-        exclude: /dist-newstyle/,
         use: [
           {
             loader: 'haskell-loader',
-            options: { dev: false, isServer },
+            options: { dev, isServer },
           },
         ],
       });

@@ -1,6 +1,6 @@
 {
   "name": "next-haskell",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next.js integration for Haskell",
   "main": "src/index.js",
   "author": "Obsidian Systems LLC",

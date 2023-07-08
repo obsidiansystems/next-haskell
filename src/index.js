@@ -23,7 +23,7 @@ module.exports = (nextConfig = {}) => {
         test: /\.(cabal)$/,
         use: [
           {
-            loader: 'haskell-loader',
+            loader: '@ryantrinkle/haskell-loader',
             options: { dev, isServer },
           },
         ],
